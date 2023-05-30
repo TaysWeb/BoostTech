@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Playfair', serif; 
+}
+.container {
+    margin:35px ;
+}
+header {
+    height:100vh;
+    overflow: hidden;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+   /* ------------------- NAV BAR  -------------------*/
+header .nav-link	{
+	color:white;
+    font-weight:800 ;
+    font-size:17px;
+}
+.navbar-myspacing	{
+
+	margin:0px 30px;
+	font-size:16px;
+	color:white;
+	font-weight:800;
+	letter-spacing:2px;
+	
+}
+.nav-mobi-width {     
+    width: 30%;
+}
+   /* ------------------- End of NAV BAR  -------------------*/
+   
+      /* ------------------- Featured button -------------------*/
+.custom-btn {	
+	text-decoration:none;
+	text-transform:uppercase;
+	font-weight:600;
+	font-size:20px;
+	width:150px;
+	background-color:#687473;
+	height:50px;
+	padding:10px 10px 10px 10px;
+	color:#fff;
+	transition:  linear 0.5s;
+	text-align:center;
+	border-radius:15px;
+
+}
+.custom-btn:hover {	
+	background-color:rgb(255, 255, 255);
+	background-color:#020202;
+	color:#52c5bd;
+	opacity:1;
+
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+
+    .navbar-myspacing	{
+        margin:0;
+        font-size:14px;
+        color:white;
+        
+    }
+      
+      .nav-mobi-width	{
+        width:100%;      
+      }
+      
+      .navbar-toggler	{
+	  
+        font-size:10px;
+          
+      }
+      footer	{
+	    padding-top:10px
+ 
+     }
+     .footer-width		{
+	  
+        width:100%  
+          
+      }
+      
+}
+@media (max-width: 1200px) {
+  
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
